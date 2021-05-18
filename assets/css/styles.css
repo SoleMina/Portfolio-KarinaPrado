@@ -140,9 +140,10 @@ img{
         transition: .5s;
         backdrop-filter: blur(10px);
     }
-    ..nav__link {
-        color: var(--white-color);
+    .nav__link {
+        color: var(--white-color) !important;
     }
+
 
 }
 .nav__item{
